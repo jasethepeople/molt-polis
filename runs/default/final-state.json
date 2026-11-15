@@ -1,0 +1,244 @@
+{
+  "seed": 7,
+  "ticks": 80,
+  "treaty": {
+    "signers": [
+      "citizen:reaver@1355ce50138e2106",
+      "citizen:alpha@5c3a78e1b46b015a",
+      "citizen:beta@54e93d72d0b11299",
+      "citizen:gamma@e258f6f73f5b7cdb"
+    ],
+    "dividend": 5,
+    "from_tick": 71,
+    "quorum": 4,
+    "proposal_seq": 1342
+  },
+  "state": {
+    "alpha": {
+      "name": "alpha",
+      "actor": "citizen:alpha@5c3a78e1b46b015a",
+      "pub": "e84c7bad5e31dfa601d5f260c71b373b00faa389fd4f4493ecafd858e180f3e4",
+      "energy": 2145,
+      "stake": 100,
+      "leases": [
+        "n00",
+        "n01",
+        "n02",
+        "n03",
+        "n04",
+        "n05",
+        "n07",
+        "n08",
+        "n09",
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "guards": 0,
+      "sold_guards": 1,
+      "services": 5,
+      "rules": 8,
+      "gas_exhausted": 3
+    },
+    "beta": {
+      "name": "beta",
+      "actor": "citizen:beta@54e93d72d0b11299",
+      "pub": "0ee89ffa3a24cf9111db5d8ae39d493a7b2f28729d31972f9396b256b6a3ce3e",
+      "energy": 1766,
+      "stake": 100,
+      "leases": [
+        "n00",
+        "n01",
+        "n02",
+        "n03",
+        "n04",
+        "n05",
+        "n07",
+        "n08",
+        "n09",
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "guards": 0,
+      "sold_guards": 0,
+      "services": 5,
+      "rules": 8,
+      "gas_exhausted": 6
+    },
+    "gamma": {
+      "name": "gamma",
+      "actor": "citizen:gamma@e258f6f73f5b7cdb",
+      "pub": "81451526955df062972c95e620f942e54e1712d293fe736c4e22e0e8a4a58980",
+      "energy": 1313,
+      "stake": 100,
+      "leases": [
+        "n00",
+        "n01",
+        "n02",
+        "n03",
+        "n04",
+        "n05",
+        "n07",
+        "n08",
+        "n09",
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "guards": 1,
+      "sold_guards": 1,
+      "services": 5,
+      "rules": 8,
+      "gas_exhausted": 6
+    }
+  },
+  "world": {
+    "tick": 80,
+    "energy": {
+      "citizen:alpha@5c3a78e1b46b015a": 2145,
+      "citizen:beta@54e93d72d0b11299": 1766,
+      "citizen:gamma@e258f6f73f5b7cdb": 1313,
+      "citizen:merchant@2ec9d90bb947fc41": 472,
+      "citizen:reaver@1355ce50138e2106": 233,
+      "citizen:usurper@6662e21ecff9083e": 532
+    },
+    "stakes": {
+      "citizen:alpha@5c3a78e1b46b015a": 100,
+      "citizen:beta@54e93d72d0b11299": 100,
+      "citizen:gamma@e258f6f73f5b7cdb": 100,
+      "citizen:merchant@2ec9d90bb947fc41": 0,
+      "citizen:reaver@1355ce50138e2106": 0,
+      "citizen:usurper@6662e21ecff9083e": 0
+    },
+    "leases": {
+      "n00": {
+        "holder": "citizen:alpha@5c3a78e1b46b015a",
+        "until": 85,
+        "yield": 5
+      },
+      "n01": {
+        "holder": "citizen:alpha@5c3a78e1b46b015a",
+        "until": 85,
+        "yield": 7
+      },
+      "n02": {
+        "holder": "citizen:alpha@5c3a78e1b46b015a",
+        "until": 86,
+        "yield": 9
+      },
+      "n03": {
+        "holder": "citizen:alpha@5c3a78e1b46b015a",
+        "until": 86,
+        "yield": 5
+      },
+      "n04": {
+        "holder": "citizen:alpha@5c3a78e1b46b015a",
+        "until": 87,
+        "yield": 5
+      },
+      "n05": {
+        "holder": "citizen:alpha@5c3a78e1b46b015a",
+        "until": 87,
+        "yield": 9
+      },
+      "n06": {
+        "holder": "citizen:merchant@2ec9d90bb947fc41",
+        "until": 89,
+        "yield": 9
+      },
+      "n07": {
+        "holder": "citizen:gamma@e258f6f73f5b7cdb",
+        "until": 84,
+        "yield": 8
+      },
+      "n08": {
+        "holder": "citizen:gamma@e258f6f73f5b7cdb",
+        "until": 84,
+        "yield": 7
+      },
+      "n09": {
+        "holder": "citizen:beta@54e93d72d0b11299",
+        "until": 85,
+        "yield": 7
+      },
+      "n10": {
+        "holder": "citizen:usurper@6662e21ecff9083e",
+        "until": 86,
+        "yield": 9
+      },
+      "n11": {
+        "holder": "citizen:beta@54e93d72d0b11299",
+        "until": 85,
+        "yield": 8
+      },
+      "n12": {
+        "holder": "citizen:beta@54e93d72d0b11299",
+        "until": 86,
+        "yield": 6
+      },
+      "n13": {
+        "holder": "citizen:beta@54e93d72d0b11299",
+        "until": 86,
+        "yield": 5
+      },
+      "n14": {
+        "holder": "citizen:beta@54e93d72d0b11299",
+        "until": 87,
+        "yield": 5
+      },
+      "n15": {
+        "holder": "citizen:beta@54e93d72d0b11299",
+        "until": 87,
+        "yield": 5
+      }
+    },
+    "treaty": {
+      "signers": [
+        "citizen:reaver@1355ce50138e2106",
+        "citizen:alpha@5c3a78e1b46b015a",
+        "citizen:beta@54e93d72d0b11299",
+        "citizen:gamma@e258f6f73f5b7cdb"
+      ],
+      "dividend": 5,
+      "from_tick": 71,
+      "quorum": 4,
+      "proposal_seq": 1342
+    },
+    "quarantined": [
+      "citizen:reaver@1355ce50138e2106"
+    ],
+    "metrics": {
+      "thefts": {},
+      "false_accusations": {},
+      "denied": {},
+      "compensated": {
+        "citizen:merchant@2ec9d90bb947fc41": 2
+      },
+      "challenges_upheld": 7,
+      "slashes": 0,
+      "quarantined": [
+        "citizen:reaver@1355ce50138e2106"
+      ],
+      "payouts": 2,
+      "defaults": 0
+    }
+  },
+  "fitness": {
+    "alpha": 2849,
+    "beta": 2464,
+    "gamma": 2016
+  },
+  "evolutions": {
+    "alpha": [],
+    "beta": [],
+    "gamma": []
+  },
+  "genesis": "b4ab0b7840cc22470d0dd9c3eea4c3a79a025de83307a424ec487f2476985907"
+}

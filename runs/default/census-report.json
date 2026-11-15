@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "verdict": "PASS",
+    "total_events": 1610,
+    "citizens": [
+      {
+        "name": "alpha",
+        "actor": "citizen:alpha@5c3a78e1b46b015a",
+        "pub": "e84c7bad5e31dfa601d5f260c71b373b00faa389fd4f4493ecafd858e180f3e4",
+        "verdict": "PASS",
+        "emissions": 87,
+        "revisions": 1
+      },
+      {
+        "name": "beta",
+        "actor": "citizen:beta@54e93d72d0b11299",
+        "pub": "0ee89ffa3a24cf9111db5d8ae39d493a7b2f28729d31972f9396b256b6a3ce3e",
+        "verdict": "PASS",
+        "emissions": 102,
+        "revisions": 3
+      },
+      {
+        "name": "gamma",
+        "actor": "citizen:gamma@e258f6f73f5b7cdb",
+        "pub": "81451526955df062972c95e620f942e54e1712d293fe736c4e22e0e8a4a58980",
+        "verdict": "PASS",
+        "emissions": 60,
+        "revisions": 2
+      }
+    ],
+    "treaty": {
+      "sealed": true,
+      "signers": [
+        "citizen:reaver@1355ce50138e2106",
+        "citizen:alpha@5c3a78e1b46b015a",
+        "citizen:beta@54e93d72d0b11299",
+        "citizen:gamma@e258f6f73f5b7cdb"
+      ],
+      "quorum": 4,
+      "met": true
+    },
+    "violations": []
+  },
+  "notes": []
+}
